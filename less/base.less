@@ -1,0 +1,262 @@
+@bgcolor:#fafafa;
+/*复位样式*/
+body,
+a,
+textarea,
+input {
+    font-family: SourceHanSans, Microsoft YaHei, "微软雅黑", Verdana, Geneva, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+	width: 100%;
+	vertical-align: middle;
+}
+
+html,body，div,dl,dt,dd,ul,ol,li,p,h1,h2,h3,h4,h5,h6,th,td,hr,blockquote {
+    padding: 0px;
+    margin: 0px;
+    list-style: none
+}
+
+html,body{
+	font-size: 20px;
+}
+
+/*公共样式*/
+.main h1{
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+.main h2{
+	font-size: 1.25rem;
+	line-height: 2rem;
+}
+.main h3{
+	font-size: 1rem;
+	line-height: 1.65rem;
+	font-weight: normal;
+}
+
+p{
+	font-size: 0.7rem;
+	line-height: 1rem;
+	text-align: justify;
+}
+.text{
+	font-size: 0.65rem;
+	line-height: 1rem;
+	text-align: justify;
+}
+.color{
+	color: #e93a57;
+}
+.btn{
+	padding: 0.5rem 1.1rem;
+	color: #fff;
+	background: #2c3242;
+	display: inline-block;	
+}
+
+/*page01*/
+.page01{
+	background: @bgcolor;
+	text-align: center;
+	h1{
+		margin-top: -6rem;
+		margin-bottom: 1.35rem;
+	}
+	a{
+		margin: 3.9rem 0 2.9rem;
+		font-size:1rem;
+	}
+}
+
+/*page02*/
+.page02{
+	text-align: center;
+	h1{
+		margin-top: 1.75rem;
+		margin-bottom: 1.5rem;
+	}
+	ul{
+		width: 12.75rem;
+		margin:0 auto 2rem;
+		overflow: hidden;
+		li{				
+			float: left;
+			margin-right: 2px;
+			margin-bottom: 2px;
+			overflow: hidden;
+			background: #646363;
+			&:nth-child(2){
+				background: #df6363;
+			}
+			&:nth-child(4){
+				background: #df6363;
+			}
+			&:nth-child(3){
+				background: #7ac470;
+			}
+			&:nth-child(8){
+				background: #7ac470;
+			}
+			&:nth-child(6){
+				background: #66c5e4;
+			}
+			&:nth-child(7){
+				background: #ffc001;
+			}
+			a{
+				padding: 0.5rem;
+				font-size: 0.75rem;
+				color: #fff;
+				display: inline-block;
+			}
+		}
+	}
+	h3{
+		margin-bottom: 1.5rem;
+	}
+	.btn{
+		margin-bottom: 1.25rem;
+	}
+}
+
+/*page03*/
+.page03{
+	background: @bgcolor;
+	text-align: center;
+	padding-top: 2rem;
+	h1{
+		margin-bottom: 1.25rem;
+	}
+	p{
+		width: 14.25rem;
+		margin: 0 auto 0.75rem;
+	}
+	.alarmTitle{
+		font-size: 1.17rem;
+		width: 5.5rem;
+		margin: 0 auto;
+		position: relative;
+		z-index: 2;
+		display: block;
+		background:  #fafafa;
+	}
+	.alarm{
+		padding: 1.5rem 0rem;
+		text-align: center;
+		border: 1px solid #333;
+		width: 10.4rem;
+		position: relative;
+		top: -0.75rem;
+	}
+	.btn{
+		margin-bottom: 2rem;
+	}
+}
+
+/*page04*/
+.page04{
+	text-align: center;
+	h2{
+		margin: 1.65rem 0 1.25rem;
+	}
+	ul{
+		width: 14.75rem;
+		margin: auto;
+		li{
+			width: 100%;
+			background: #eaeaea;
+			margin-bottom: 0.25rem;
+			line-height: 1.25rem;
+			text-indent: 0.375rem;
+			&:nth-child(2n){
+				color: #ed3654;
+			}
+		}
+	}
+	.btn{
+		margin-top: 1.65rem;
+		margin-bottom: 2rem;
+	}
+}
+
+/*page05*/
+.page05{
+	text-align: center;
+	background: @bgcolor;
+	padding-top: 1.5rem;
+	h2{
+		margin-bottom: 1rem;
+	}
+	ul{
+		width: 12rem;
+		margin: auto;
+		li{
+			padding: 0.25rem 1rem;
+			margin-right: 0.65rem;
+			margin-bottom: 0.65rem;
+			float: left;
+			text-align: center;
+			border: 1px solid #060606;
+			&nth-child(2n){
+				margin-right: 0
+			}
+		}
+	}
+	.btn{
+		margin: 1.5rem 0 2rem;
+	}
+}
+
+/*page06*/
+.page06{
+	background: #fef3d1;
+	text-align: center;
+	padding-top: 1.25rem;
+	padding-bottom: 1.05rem;
+	.box{
+		.star{
+			width: 7.5rem;
+			margin: 0.75rem auto 1rem;
+		}
+		.NO{
+			margin:0.75rem auto;
+			width: 12.2rem;
+
+		}
+		.btn{
+			margin-top: 0.25rem;
+			margin-bottom: 1.45rem;
+		}
+
+	}
+}
+
+/*page07*/
+.page07{
+	text-align: center;
+	color: #fff;
+	background: #c12d3b;
+	padding-bottom: 2.25rem;
+	padding-top: 1.75rem;
+	.text{
+		display: inline-block;
+		margin-top: 0.75rem;
+		margin-bottom: 1.5rem;
+		span{
+			color:#50151c;
+		}
+	}
+	p{
+		width: 14.5rem;
+		margin: auto;
+		text-indent: 1rem;
+		margin-bottom: 1.15rem; 
+	}
+
+}
